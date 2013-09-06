@@ -1,7 +1,7 @@
 import Tree
 import unittest
 
-elements = (7, 2, 9, 0, 5, 13, 3, 6) # Elements used in created a binary search tree
+elements = (7, 2, 9, 0, 5, 13, 3, 6) # Elements used in creating a binary search tree
 lca_pairs = ((3, 6), (3, 9), (0, 3), (0, 2), (3, 3)) # Least common ancestor pairs to search
 lca_expect = (5, 7, 2, 2, 3) # Least common ancestor expected for the above tuple
 
