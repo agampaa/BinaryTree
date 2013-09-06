@@ -11,7 +11,7 @@ Assumptions: The tree is a ordered or sorted binary tree which has the following
 Tree.py
 =======
 
-    Has the Class Tree and functions (Constructor, Insertion, Lookup, Least Common Ancestor)
+    Has the Class Tree and Functions (Constructor, Insertion, Lookup, Least Common Ancestor)
     Has the Class NonexistentError for raising custom exception when element is nonexistent
 
 TreeTests.py
@@ -19,7 +19,7 @@ TreeTests.py
 
     Uses the Python PyUnit module unittest.py. PyUnit is a port of JUnit by Steve Purcell
     
-    Has the Class TreeTests which has the setup method that created a Tree object, inserts elements and 
+    Has the Class TreeTests which has the setup function that creates a Tree object, inserts elements and 
     executes unittests. 
     
     Testing is done for:
