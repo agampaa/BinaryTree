@@ -1,4 +1,4 @@
-import  Tree
+import Tree
 import unittest
 
 elements = (7, 2, 9, 0, 5, 13, 3, 6) # Elements used in created a binary search tree
