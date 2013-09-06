@@ -5,12 +5,12 @@ class NonexistentError(Exception):
 class Tree:
     def __init__(self, value=None, right=None, left=None):
     	"""
-		Tree constructor
+    	Tree constructor
 
-		@param value - current node value
-		@param right - right node of the tree
-		@param left - left node of the tree
-		"""
+    	@param value - current node value
+    	@param right - right node of the tree
+    	@param left - left node of the tree
+    	"""
         self.value = value
         self.right = right
         self.left = left
@@ -25,10 +25,10 @@ class Tree:
  
     def insert(self, item):
     	"""
-		Insert new node to the tree recursively
+    	Insert new node to the tree recursively
 
-		@param item - new node object to insert into tree
-		"""
+    	@param item - new node object to insert into tree
+    	"""
         if not self: # tree is empty
 			self.value = item
         elif item < self.value:
@@ -45,11 +45,11 @@ class Tree:
     
     def lookup(self, item):
     	"""
-		Lookup node in the tree recursively
+    	Lookup node in the tree recursively
 
-		@param item node to look up in the tree
-		@returns True if node found in tree, if not returns False
-		"""
+    	@param item node to look up in the tree
+    	@returns True if node found in tree, if not returns False
+    	"""
         if item < self.value:
             if self.left is None:
                 return False
