@@ -29,7 +29,7 @@ TreeTests.py
         Tree Creation
         Element Lookup of all the inserted elements
         Element lokkup for a non-existent element
-        Test Least Common Ancestors for a tuple of nodes. In Python tuple is an immutable list or array
+        Test Least Common Ancestors for a tuple of pair of items. In Python tuple is an immutable list or array
         Test Least Common Ancestor for a pair of items not present in the tree and verify exception is raised
 
 Example used
