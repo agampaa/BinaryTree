@@ -30,7 +30,7 @@ class Tree:
     	@param item - new node object to insert into tree
     	"""
         if not self: # tree is empty
-			self.value = item
+            self.value = item
         elif item < self.value:
             if self.left:
                 return self.left.insert(item)
