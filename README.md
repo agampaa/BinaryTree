@@ -29,8 +29,16 @@ TreeTests.py
         Test Least Common Ancestors for a tuple of nodes. In Python tuple is an immutable list or array
         Test Least Common Ancestor for a pair of items not present in the tree and verify exception is raised
 
-How to Execute:
+Example used
+============
+    
+    Tree Elements (7, 2, 9, 0, 5, 13, 3, 6)
+    Least common ancestor pairs to search ((3, 6), (3, 9), (0, 3), (0, 2), (3, 3))  
+    Least common ancestor expected for the above tuple (5, 7, 2, 2, 3)
+
+How to Execute
 ===============
+
     python TreeTests.py 
     
 
